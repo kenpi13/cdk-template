@@ -10,7 +10,7 @@ export class CdkTemplateStack extends cdk.Stack {
 
     // example resource
     const queue = new sqs.Queue(this, 'CdkTemplateQueue', {
-      visibilityTimeout: cdk.Duration.seconds(200)
+      visibilityTimeout: cdk.Duration.seconds(300)
     });
   }
 }
